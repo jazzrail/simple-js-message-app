@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: skyblue;
+	font-family: monospace;
+	color: darkorange;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.output-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
+}
+
+.input {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+input[type='text'] {
+	font-size: 16px;
+	color: darkslateblue;
+	font-weight: 700;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid darkgrey;
+	background-color: skyblue;
+	outline: none;
+	transition: border 0.4s ease-in-out;
+}
+
+input[type='text']:focus {
+	border: none;
+	border-top: 2px solid darkslateblue;
+}
+
+.msg-btn {
+	padding: 5px;
+	border-radius: 4px;
+	color: darkorange;
+}
